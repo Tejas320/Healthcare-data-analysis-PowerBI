@@ -11,10 +11,10 @@ The healthcare industry generates vast amounts of data daily, presenting a chall
 5. Percent of Male and Female Patients
 6. Average duration of Stay in the Hospital
 ## Dataset Description
-For healthcare data analysis, 2 datasets are used - Admission Details, Patient Details
-Admission details - No. of rows=12,244   No. of columns=2
+For healthcare data analysis, 2 datasets are used - Admission Details, Patient Details</br>
+Admission details - No. of rows=12,244   No. of columns=2</br>
 1. Admission No - Unique admission number assigned to each patient
-2. Name - Name of each patient
+2. Name - Name of each patient</br>
 Patient Details - No. of rows=14,765   No. of columns=18
 1. Admission No - Unique admission number assigned to each patient
 2. D.O.A. - Date of Admission of each patient
