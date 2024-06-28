@@ -11,4 +11,20 @@ The healthcare industry generates vast amounts of data daily, presenting a chall
 5. Percent of Male and Female Patients
 6. Average duration of Stay in the Hospital
 ## Visualizations
-1. Created a decomposition tree 
+1. Created a decomposition tree showcasing the number of patients who smoke and are having lungs disease, neuro disease and chronic kidney disease (CKD)
+   ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/c6e2fb22-e0bc-4ea7-943b-4d3ec096e759)
+2. Created a decomposiion tree showcasing the number of patients who are alcoholic and are having lungs disease, bp problem, having sugar along with their age group
+   ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/b0ff6de2-8852-4648-9c67-7c96cbda8942)
+3. Created a line chart showcasing the total number of patients visited the hospital on each day
+   ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/f3f9669a-6a75-43fc-b3f2-fe7bf65d8c80)
+4. Created a stacked bar chart showcasing the total patients by age group
+   ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/0bf1e89c-515d-4526-88a7-806e286a4106)
+5. Created multile cards showcasing the total number of patients, total number of male and female patients, percentage of male and female patients
+   ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/50945e1d-03df-4ba4-9aa3-f4ba4623d2f4)
+6. Created card for showcasing average duration of stay in hosptal and average duration of ICU stay in hospital
+   ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/fe5446ca-8c06-4eab-bb21-4b5042fef12e)
+
+
+
+
+
