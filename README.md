@@ -23,6 +23,11 @@ The healthcare industry generates vast amounts of data daily, presenting a chall
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/50945e1d-03df-4ba4-9aa3-f4ba4623d2f4)
 6. Created card for showcasing average duration of stay in hosptal and average duration of ICU stay in hospital
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/fe5446ca-8c06-4eab-bb21-4b5042fef12e)
+7. Created multiple slicers for Rural(Urban, Rural), Gender(Male, Female), Type of Admission(Emergency, OPD)
+   ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/0162f262-e60d-401c-8094-75c849996902)
+## Final Power BI Dashboard
+![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/4e2d64d0-e028-482a-8c4e-83ce44636a22)
+
 
 
 
