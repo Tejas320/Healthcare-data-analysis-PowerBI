@@ -10,6 +10,30 @@ The healthcare industry generates vast amounts of data daily, presenting a chall
 4. Count of Patients by Age Group
 5. Percent of Male and Female Patients
 6. Average duration of Stay in the Hospital
+## Dataset Description
+For healthcare data analysis, 2 datasets are used - Admission Details, Patient Details
+Admission details - No. of rows=12,244   No. of columns=2
+1. Admission No - Unique admission number assigned to each patient
+2. Name - Name of each patient
+Patient Details - No. of rows=14,765   No. of columns=18
+1. Admission No - Unique admission number assigned to each patient
+2. D.O.A. - Date of Admission of each patient
+3. D.O.D. - Date of Discharge of each patient
+4. Age - Age of each patient
+5. Gender - Gender of each patient (Male, Female)
+6. Rural - Whether patient is from city(Urban) or village(Rural)
+7. Type of Admission-Emergency/OPD - Whether the patient is in emergency or OPD
+8. Duration of Intensive Unit Stay - Duration of a patient in ICU
+9. Outcome - Whether the patient is discharged, or discharged against medical advice(DAMA), or the patient expired
+10. Smoking - Whether the patient smokes or not
+11. Alcohol - Whether the patient drinks alcohol or not
+12. DM - Whether the patient has diabetes or not (DM - Diabetes Mellitus)
+13. HTN - Whether the patient is suffering from hypertension(HTN) or not
+14. CKD - Whether the patient is having chronic kidney disease(CKD) or not
+15. Neuro Cardiogenic Syncope - Whether the patient is suffering from Neuro Cardiogenic Syncope or not
+16. Cardiogenic Shock - Whether the patient is suffering from Cardiogenic Shock or not
+17. Pulmonary Embolism - Whether the patient is suffering from Pulmonary Embolism or not
+18. Doctors Note - Doctors note for patients
 ## Visualizations
 1. Created a decomposition tree showcasing the number of patients who smoke and are having lungs disease, neuro disease and chronic kidney disease (CKD)
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/c6e2fb22-e0bc-4ea7-943b-4d3ec096e759)
