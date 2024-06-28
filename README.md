@@ -99,8 +99,7 @@ For healthcare data analysis, 2 datasets are used - Admission Details, Patient D
 'Patient Details'[AGE]<=75,"Old Age",
 'Patient Details'[AGE]<=100,"Over Aged",
 'Patient Details'[AGE]<=125,"Above 100"
-)
-```
+) ```
 ## Visualizations
 1. Created a decomposition tree showcasing the number of patients who smoke and are having lungs disease, neuro disease and chronic kidney disease (CKD)
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/c6e2fb22-e0bc-4ea7-943b-4d3ec096e759)
