@@ -39,6 +39,68 @@ For healthcare data analysis, 2 datasets are used - Admission Details, Patient D
    ```bash
    Duration of Stay = ABS(DATEDIFF('Patient Details'[D.O.A],'Patient Details'[D.O.D],DAY))
    ```
+2. Created a new column 'smoking1'
+   ```bash
+   smoking1 = IF('Patient Details'[SMOKING ]=0,"No","Yes")
+   ```
+3. Created a new column 'alcohol1'
+   ```bash
+   alcohol1 = IF('Patient Details'[ALCOHOL]=0,"No","Yes")
+   ```
+4. Created a new column 'Sugar'
+   ```bash
+   Sugar = IF('Patient Details'[DM]=0,"No","Yes")
+   ```
+5. Created a new column 'bp'
+   ```bash
+   bp = IF('Patient Details'[HTN]=0,"No","Yes")
+   ```
+6. Created a new column 'kidney'
+   ```bash
+   kidney = IF('Patient Details'[CKD]=0,"No","Yes")
+   ```
+7. Created a new column 'neuro'
+   ```bash
+   neuro = IF('Patient Details'[NEURO CARDIOGENIC SYNCOPE]=0,"No","Yes")
+   ```
+8. Created a new column 'heart attack'
+   ```bash
+   heart attack = IF('Patient Details'[CARDIOGENIC SHOCK]=0,"No","Yes")
+   ```
+9. Created a new column 'lungs'
+    ```bash
+    lungs = IF('Patient Details'[PULMONARY EMBOLISM]=0,"No","Yes")
+    ```
+10. Created a new column 'Year'
+    ```bash
+    Year = YEAR('Patient Details'[D.O.A])
+    ```
+11. Created a new column 'Month No'
+    ```bash
+    Month No = MONTH('Patient Details'[D.O.A])
+    ```
+12. Created a new column 'Month Name'
+    ```bash
+    Month Name = FORMAT('Patient Details'[D.O.A],"MMM")
+    ```
+13. Created a new column 'weekday'
+    ```bash
+    weekday = WEEKDAY('Patient Details'[D.O.A])
+    ```
+14. Created a new column 'weekname'
+    ```bash
+    weekname = FORMAT('Patient Details'[D.O.A],"DDD")
+    ```
+15. Created a new column 'age_group'
+    ```bash
+    age_group = SWITCH(TRUE(),
+'Patient Details'[AGE]<=25,"Young Age",
+'Patient Details'[AGE]<=50,"Middle Age",
+'Patient Details'[AGE]<=75,"Old Age",
+'Patient Details'[AGE]<=100,"Over Aged",
+'Patient Details'[AGE]<=125,"Above 100"
+)
+```
 ## Visualizations
 1. Created a decomposition tree showcasing the number of patients who smoke and are having lungs disease, neuro disease and chronic kidney disease (CKD)
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/c6e2fb22-e0bc-4ea7-943b-4d3ec096e759)
