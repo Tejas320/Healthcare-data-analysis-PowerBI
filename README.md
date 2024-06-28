@@ -34,6 +34,11 @@ For healthcare data analysis, 2 datasets are used - Admission Details, Patient D
 16. Cardiogenic Shock - Whether the patient is suffering from Cardiogenic Shock or not
 17. Pulmonary Embolism - Whether the patient is suffering from Pulmonary Embolism or not
 18. Doctors Note - Doctors note for patients
+## Data Cleaning and Preprocessing
+1. Created a new column 'Duration of Stay'
+   ```bash
+   Duration of Stay = ABS(DATEDIFF('Patient Details'[D.O.A],'Patient Details'[D.O.D],DAY))
+   ```
 ## Visualizations
 1. Created a decomposition tree showcasing the number of patients who smoke and are having lungs disease, neuro disease and chronic kidney disease (CKD)
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/c6e2fb22-e0bc-4ea7-943b-4d3ec096e759)
