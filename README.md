@@ -95,6 +95,26 @@ For healthcare data analysis, 2 datasets are used - Admission Details, Patient D
     ```bash
     age_group = SWITCH(TRUE(), 'Patient Details'[AGE]<=25,"Young Age", 'Patient Details'[AGE]<=50,"Middle Age", 'Patient Details'[AGE]<=75,"Old Age", 'Patient Details'[AGE]<=100,"Over Aged", 'Patient Details'[AGE]<=125,"Above 100")
     ```
+16. Created a new measure 'Total Patients'
+    ```bash
+    Total Patients = COUNTROWS('Patient Details')
+    ```
+17. Created a new measure 'Males'
+    ```bash
+    Males = CALCULATE(COUNTROWS('Patient Details'), 'Patient Details'[GENDER]="Male")
+    ```
+18. Created a new measure 'Males_percent'
+    ```bash
+    Males_percent = DIVIDE([Males], [Total Patients])
+    ```
+19. Created a new measure 'Females'
+    ```bash
+    Females = CALCULATE(COUNTROWS('Patient Details'), 'Patient Details'[GENDER]="Female")
+    ```
+20. Created a new measure 'Females_percent'
+    ```bash
+    Females_percent = DIVIDE([Females], [Total Patients])
+    ```
 ## Visualizations
 1. Created a decomposition tree showcasing the number of patients who smoke and are having lungs disease, neuro disease and chronic kidney disease (CKD)
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/c6e2fb22-e0bc-4ea7-943b-4d3ec096e759)
