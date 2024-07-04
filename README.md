@@ -39,7 +39,7 @@ For healthcare data analysis, 2 datasets are used - Admission Details, Patient D
 16. Cardiogenic Shock - Whether the patient is suffering from Cardiogenic Shock or not
 17. Pulmonary Embolism - Whether the patient is suffering from Pulmonary Embolism or not
 18. Doctors Note - Doctors note for patients
-## Preparing the Data for Analysis
+## Preparing Data for Analysis
 1. Created a new column 'Duration of Stay'
    ```bash
    Duration of Stay = ABS(DATEDIFF('Patient Details'[D.O.A],'Patient Details'[D.O.D],DAY))
