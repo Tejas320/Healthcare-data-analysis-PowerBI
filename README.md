@@ -1,5 +1,11 @@
 # Health Care Data Driven Decisions Using Power BI
 ## (EY GDS-AICTE Internship Project)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Objectives](#objectives)
+3. [Dataset Description](#dataset-description)
+4. [Preparing Data for Analysis](#preparing-data-for-analysis)
+5. [Visualizations](#visualizations)
 ## Introduction
 The healthcare industry generates vast amounts of data daily, presenting a challenge in transforming this data into actionable insights. Leveraging Power BI, healthcare organizations can harness this data to make informed, data-driven decisions. This approach aims to enhance patient care, streamline operations, and improve overall healthcare outcomes. By visualizing key metrics and trends, stakeholders can identify areas for improvement and implement evidence-based strategies effectively.
 ## Objectives
