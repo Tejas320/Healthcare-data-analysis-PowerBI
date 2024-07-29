@@ -131,7 +131,7 @@ For healthcare data analysis, 2 datasets are used - Admission Details, Patient D
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/0bf1e89c-515d-4526-88a7-806e286a4106)
 5. Created multile cards showcasing the total number of patients, total number of male and female patients, percentage of male and female patients
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/50945e1d-03df-4ba4-9aa3-f4ba4623d2f4)
-6. Created card for showcasing average duration of stay in hosptal and average duration of ICU stay in hospital
+6. Created card for showcasing average duration of stay in hospital and average duration of ICU stay in hospital
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/fe5446ca-8c06-4eab-bb21-4b5042fef12e)
 7. Created multiple slicers for Rural(Urban, Rural), Gender(Male, Female), Type of Admission(Emergency, OPD)
    ![image](https://github.com/Tejas320/Healthcare-data-analysis-PowerBI/assets/73283098/0162f262-e60d-401c-8094-75c849996902)
